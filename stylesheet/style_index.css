@@ -1,0 +1,191 @@
+.welcome {
+    margin: 0;
+    padding-top: 100px;
+    background-image: linear-gradient(to bottom, rgba(20,0,0,0.4),rgba(20, 0, 0,0.8)), url(../image/index_welcome.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vw;
+    text-align: center;
+}
+.welcome_text {
+    margin: 6vw auto;
+}
+.welcome_text h1 {
+    font-size: 10vw;
+    color: rgb(247, 228, 251);
+    font-family: "Playwrite NZ", cursive;
+    text-shadow: 1px 1px 2px rgb(31, 35, 27), #FC0 1px 0 10px;
+}
+.welcome_text p {
+    font-size: 4vw;
+    color: rgb(203, 188, 206);
+    font-family: "Playwrite NZ", cursive;
+}
+main {
+    padding-top: 0;
+}
+/* About Us */
+.about {
+    margin-top: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    transition: all 0.5s ease 0s;
+}
+.about_div:hover {
+    background-color: rgba(97, 255, 255, 0.455);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.527);
+}
+.about_box {
+    flex: 1 1 10vw;
+    width: 40vw;
+    height: 50vh;
+}
+
+.about img , .about iframe {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(154, 0, 0, 0.512);
+}
+/* schedule */
+.schedule {
+    margin-top: 1vw;
+    padding-top: 1vw;
+    border-top: 2px solid black;
+}
+.schedule h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin: 2vw auto;
+    font-family: "Playwrite NZ", cursive;
+}
+.schedule table {
+    text-align: center;
+    border: 2px solid black;
+    font-size: 2vw;
+}
+.schedule th ,.schedule td {
+    border: 2px solid black;
+}
+.schedule th:hover , .schedule td:hover {
+    background-color: rgba(0, 255, 255, 0.385);
+}
+.schedule img {
+    width: 100%;
+    height: 100%;
+}
+/* Display Cat */
+.display_cat {
+    margin-top: 1vw;
+    border-top: 2px solid black;
+}
+.display_cat_header {
+    text-align: center;
+    font-size: 2vw;
+    margin: 2vw auto;
+    font-family: "Playwrite NZ", cursive;
+}
+.display_cat_about {
+    width: 100%;
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.display_cat_about_box {
+    width: 24vw;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+}
+.display_cat_about_box_more {
+    padding: 4px;
+    margin: 10px;
+    text-align: right;
+}
+.display_cat_about_box_more a { 
+    border: 1.5px solid black;
+    padding: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #466900;
+}
+.display_cat_about_box_more a:hover {
+    background-color: #69004f1d;
+    color: blue;
+}
+.display_cat_about_box:hover {
+    background-color: rgba(97, 184, 255, 0.455);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.527);
+}
+.display_cat_about_box p {
+    text-align: left;
+}
+.display_cat_about_box img {
+    width: 20vw;
+    height: 20vw;
+}
+.display_cat_text {
+    width: 35vw;
+}
+.display_cat_comment {
+    margin-left: 5vw;
+    width: 35vw;
+}
+/* Display Food */
+.display_food {
+    margin-top: 1vw;
+    border-top: 2px solid black;
+}
+.display_food_header {
+    text-align: center;
+    font-size: 2vw;
+    margin: 2vw auto;
+    font-family: "Playwrite NZ", cursive;
+}
+.display_food_about {
+    width: 100%;
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.display_food_about_box {
+    width: 24vw;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+}
+.display_food_about_box_more {
+    padding: 4px;
+    margin: 10px;
+    text-align: right;
+}
+.display_food_about_box_more a { 
+    border: 1.5px solid black;
+    padding: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #466900;
+}
+.display_food_about_box_more a:hover {
+    background-color: #69004f1d;
+    color: blue;
+}
+.display_food_about_box:hover {
+    background-color: rgba(251, 234, 48, 0.455);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.527);
+}
+.display_food_about_box p {
+    text-align: left;
+}
+.display_food_about_box img {
+    width: 20vw;
+    height: 20vw;
+}
+.display_food_text {
+    width: 35vw;
+}
+.display_food_comment {
+    margin-left: 5vw;
+    width: 35vw;
+}

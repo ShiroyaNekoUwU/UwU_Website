@@ -1,0 +1,144 @@
+.register_form {
+    width: 100%;
+    height: 60vh;
+}
+.register_form_form {
+    display: grid;
+    grid-template-areas:
+        'name photo photo photo'
+        'email photo photo photo'
+        'num photo photo photo'
+        'pass photo photo photo'
+        'group cancle reset submit';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+.register_form label {
+    font-size: 20px;
+}
+.register_form .name {
+    grid-area: name;
+}
+
+.register_form .photo {
+    grid-area: photo;
+}
+.select_photo_label.selected img {
+    border: 3px solid red;
+}
+.custom_photo_display {
+    width: 200px; 
+    height: 200px; 
+    margin-top: 10px; 
+    border: 2px dashed #ddd; 
+    background-color: #f8f8f8; 
+    cursor: pointer; 
+    border-radius: 10px;
+}
+#custom_photo_preview {
+    display: none; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.custom_photo label {
+    text-align: left;
+}
+.register_form .photo img {
+    width: 80px;
+    height: 80px;
+}
+
+.register_form .email {
+    grid-area: email;
+}
+
+.register_form .num {
+    grid-area: num;
+}
+
+.register_form .pass {
+    grid-area: pass;
+}
+
+.register_form .group {
+    grid-area: group;
+}
+
+.register_form .cancle {
+    grid-area: cancle;
+    font-size: 40px;
+    text-align: center;
+}
+.register_form .cancle a {
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px dashed;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.4);
+    border-color: rgba(255, 0, 0, 0.6);
+}
+.register_form .cancle a:hover {
+    background-color: rgba(255, 0, 0, 1);
+    border: 2px solid rgba(255, 0, 0, 1);
+    color: white;
+}
+
+.register_form .reset {
+    grid-area: reset;
+    font-size: 40px;
+    text-align: center;
+}
+
+.register_form .submit {
+    grid-area: submit;
+    font-size: 40px;
+    text-align: center;
+}
+.register_form .reset input {
+    width: 140px;
+    height: 60px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(0, 255, 0, 0.3);
+    border-color: rgba(0, 255, 0, 0.6);
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px dashed;
+    border-radius: 5px;
+}
+
+.register_form .submit input {
+    width: 170px;
+    height: 60px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(0, 0, 255, 0.4);
+    border-color: rgba(0, 0, 255, 0.6);
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px dashed;
+    border-radius: 5px;
+}
+.register_form .reset input:hover {
+    background-color: rgba(0, 255, 0, 1);
+    border: 2px solid rgba(0, 255, 0, 1);
+}
+.register_form .submit input:hover {
+    background-color: rgba(0, 0, 255, 1);
+    border: 2px solid rgba(0, 0, 255, 1);
+    color: white;
+}
+.register_login_text {
+    padding: 3vw;
+    text-align: center;
+}

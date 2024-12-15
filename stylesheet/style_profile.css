@@ -1,0 +1,112 @@
+.profile_detail {
+    width: calc(100% - 2 * 20px);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: grid;
+    grid-template:
+    'photo name setting'
+    'email contact id_pass' ;
+    gap: 5px;
+    align-items: center;
+    background-color: rgba(153, 50, 204, 0.089);
+    font-size: 25px;
+}
+.profile_detail .photo {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.profile_detail .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.profile_detail .id_pass {
+    text-align: center;
+}
+.profile_detail .setting {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.profile_detail .setting a {
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+.profile_detail .setting a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.order_list {
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100%;
+}
+.order_list fieldset {
+    width: calc(100% - 2 * (40px) - 2 * (10px));
+    height: 100%;
+    padding: 30px 40px;
+    margin: 10px;
+    border: 2px groove black;
+    background-color: rgba(245, 222, 179, 0.297);
+    border-radius: 10px;
+}
+.order_list legend {
+    font-size: 20px;
+    padding: 3px 10px;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 10px;
+}
+.order_list table {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.order_list th ,.order_list td {
+    border: 2px solid black;
+    width: calc(650px / 7);
+    height: 40px;
+    overflow: auto;
+}
+
+
+
+
+.appointment_list {
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100%;
+}
+.appointment_list fieldset {
+    width: calc(100% - 2 * (40px) - 2 * (10px));
+    height: 100%;
+    padding: 30px 40px;
+    margin: 10px;
+    border: 2px groove black;
+    background-color: rgba(245, 222, 179, 0.297);
+    border-radius: 10px;
+}
+.appointment_list legend {
+    font-size: 20px;
+    padding: 3px 10px;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 10px;
+}
+.appointment_list table {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.appointment_list th ,.appointment_list td {
+    border: 2px solid black;
+    width: calc(650px / 7);
+    height: 40px;
+    overflow: auto;
+}
