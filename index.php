@@ -75,13 +75,13 @@ include_once("page/get_data/get_data_account.php");
                     </tr>
                     <tr>
                         <td>Open</td>
-                        <td>8:00a.m.</td>
-                        <td>8:00a.m.</td>
-                        <td>8:00a.m.</td>
-                        <td>8:00a.m.</td>
-                        <td>8:00a.m.</td>
-                        <td>8:00a.m.</td>
-                        <td>8:00a.m.</td>
+                        <td>10:00a.m.</td>
+                        <td>10:00a.m.</td>
+                        <td>10:00a.m.</td>
+                        <td>10:00a.m.</td>
+                        <td>10:00a.m.</td>
+                        <td>10:00a.m.</td>
+                        <td>10:00a.m.</td>
                     </tr>
                     <tr>
                         <td>Lunch</td>
